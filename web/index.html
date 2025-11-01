@@ -2,14 +2,33 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto Grupo 6 - Nginx Docker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final: Servidor Automatizado Grupo 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>¡Hola desde el Servidor Web Containerizado!</h1>
-    <p>Este es el servidor Nginx ejecutándose en un contenedor Docker, montado desde el directorio local /proyecto/web del servidor-grupo6.</p>
-    <p>El proyecto avanza satisfactoriamente. Hora del servidor: <span id="time"></span></p>
+    <div class="container">
+        <header>
+            <h1>Servidor Linux Automatizado: Proyecto Final</h1>
+        </header>
+        <main>
+            <p class="status-message">¡Contenedor Nginx Operativo y sirviendo contenido!</p>
+            <div class="info-box">
+                <h2>Detalles del Servidor</h2>
+                <p><strong>Host:</strong> servidor-grupo6 (Linux Mint VM)</p>
+                <p><strong>Servidor Web:</strong> Nginx (dentro de Docker)</p>
+                <p><strong>Puerto de Acceso:</strong> 8080</p>
+                <p><strong>Ruta de Contenido:</strong> /proyecto/web (Montaje de Volumen)</p>
+            </div>
+        </main>
+        <footer>
+            <p>Última actualización: <span id="time"></span></p>
+        </footer>
+    </div>
 </body>
 <script>
-    document.getElementById('time').innerText = new Date().toLocaleTimeString();
+    // Muestra la hora del cliente para dinamismo
+    document.getElementById('time').innerText = new Date().toLocaleString();
 </script>
 </html>
