@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Grupo 6 - Nginx Docker</title>
+</head>
+<body>
+    <h1>¡Hola desde el Servidor Web Containerizado!</h1>
+    <p>Este es el servidor Nginx ejecutándose en un contenedor Docker, montado desde el directorio local /proyecto/web del servidor-grupo6.</p>
+    <p>El proyecto avanza satisfactoriamente. Hora del servidor: <span id="time"></span></p>
+</body>
+<script>
+    document.getElementById('time').innerText = new Date().toLocaleTimeString();
+</script>
+</html>
