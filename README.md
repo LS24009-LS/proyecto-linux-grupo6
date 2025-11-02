@@ -40,3 +40,4 @@ Este proyecto implementa y automatiza un entorno de servidor Linux utilizando di
 * **Ejecución:** Contenedor Nginx (`servidor-web-nginx`) ejecutado de forma persistente (`--restart unless-stopped`).
 * **Montaje:** El contenido web se sirve mediante el montaje de volumen (`-v /proyecto/web:/usr/share/nginx/html:ro`).
 * **Verificación Final:** Servicio web accesible y funcional en **`http://localhost:8080`**. Los logs del contenedor (`docker logs`) confirmaron peticiones con código de estado **200 (OK)**.
+* **Autor del Setup Inicial:** [ls24009] (Verificado por el commit más reciente)
