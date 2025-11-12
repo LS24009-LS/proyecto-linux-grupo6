@@ -1,6 +1,6 @@
 # Proyecto Servidor Linux Automatizado (Grupo 6)
 
-Este proyecto tiene como objetivo implementar y automatizar un entorno de servidor Linux utilizando diversas tecnologías clave de la administración de sistemas y DevOps, incluyendo control de versiones (Git), programación de tareas (Cron) y contenerización (Docker).
+Este proyecto tiene como objetivo implementar y automatizar un entorno de servidor Linux utilizando diversas tecnologías clave de la administración de sistemas y DevOps, incluyendo control de versiones (Git), programación de tareas (Cron) y contenerización (Docker). El proyecto corresponde a la **preparación y administración de un entorno servidor**, implementado en Linux  y contenedores Docker, además de scripts para la gestión de sistemas.  
 
 ## Fases Completadas
 
@@ -41,3 +41,23 @@ Este proyecto implementa y automatiza un entorno de servidor Linux utilizando di
 * **Montaje:** El contenido web se sirve mediante el montaje de volumen (`-v /proyecto/web:/usr/share/nginx/html:ro`).
 * **Verificación Final:** Servicio web accesible y funcional en **`http://localhost:8080`**. Los logs del contenedor (`docker logs`) confirmaron peticiones con código de estado **200 (OK)**.
 * **Autor del Setup Inicial:** [ls24009] (Verificado por el commit más reciente)
+
+* # Proyecto de Administración de Servidores y Aplicaciones
+
+
+Incluye:
+
+- Configuración de servidores y hostnames.
+- Administración básica del sistema Linux.
+- Implementación de contenedores Docker (ej. servidor web Nginx).
+- Scripts de control de asistencia y reportes en C++.
+- Base de datos PostgreSQL con índices y triggers de seguridad.
+- Control de versiones con Git para mantener todo el proyecto centralizado.
+
+---
+
+## 🛠 Instalación y Preparación
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/tuusuario/tu-repo.git
