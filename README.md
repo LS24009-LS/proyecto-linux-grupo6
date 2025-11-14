@@ -61,3 +61,7 @@ Incluye:
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/tuusuario/tu-repo.git
+
+### 📝 Nota de Colaboración
+
+La fase de validación y documentación de este proyecto fue revisada y confirmada por *Andrea Isabel Chávez Mejía*, asegurando la coherencia y la adhesión a las mejores prácticas de Git.
